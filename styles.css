@@ -1,0 +1,540 @@
+.navbar{
+    background-color: #0892d0;
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index: 1;
+}
+.menu{
+    color:white;
+    padding:5px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+.menu2{
+    color:white;
+    padding:15px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    z-index: 1;
+    background-color: #0892d0;
+}
+.menu:hover{
+    font-family: 'Courgette', cursive;
+}
+.name{
+    margin-right: auto;
+    font-size: 40px;
+    font-family: 'Courgette', cursive;
+}
+.welcome{
+    top:120px;
+    left:200px;
+}
+.h1welcome{
+    color:white;
+    font-size: 65px;
+    font-family: 'Courgette', cursive;
+    text-shadow: 2px 2px 2px #417dc1;
+    opacity:0;
+}
+.hotelimg{
+    opacity:0;
+}
+.btnslide1{
+    background-color: white;
+    color:#0892d0;
+    font-weight: bold;
+    font-family: 'Courgette', cursive;
+    text-shadow: 2px 2px 2px white ;
+    font-size: 35px;
+    opacity:0;
+}
+.btnslide2{
+    background-color: white;
+    color:#000080;
+    font-weight: bold;
+    font-family: 'Courgette', cursive;
+    text-shadow: 2px 2px 2px white ;
+    font-size: 35px;
+    opacity:0;
+}
+.contactinfo{
+    background-color:#0892d0;
+    border-top:1px solid white;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 15px;
+    padding:20px;
+}
+.info{
+    color:white;
+    font-size: 40px;
+    padding:10px;
+    font-family: 'Courgette', cursive;
+}
+.address{
+    text-decoration: none;
+    color:white;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+}
+.telephone{
+    text-decoration: none;
+    color:white;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+}
+.email{
+    text-decoration: none;
+    color:white;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+}
+hr{
+    border-top: 1px solid white;
+}
+.media{
+    display: flex;
+    justify-content: center;
+    background-color:#0892d0;
+    padding:30px;
+    margin-top: 30px;
+}
+.facebook{
+    margin-left:20px;
+    margin-right:20px;
+}
+.rooms{
+    background-image: url(https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1868&q=80)
+}
+.headingrooms{
+    display: flex;
+    justify-content: center;
+}
+.h1other{
+    color:#06709f;
+    text-shadow: 1px 1px 1px white;
+    font-size: 75px;
+    font-family: 'Courgette', cursive;
+    margin-top: 100px;
+}
+.king{
+    display: flex;
+    justify-content: center;
+    margin:60px;
+}
+.h3king{
+    font-size: 45px;
+    font-family: 'Courgette', cursive;
+    color:#0892d0;
+    text-align: center;
+    margin-top:30px;
+}
+.kingsuit{
+    width:50%;
+    opacity:0;
+}
+.queensuit{
+    opacity:0;
+    width:50%;
+}
+.roominfoimg{
+    width:30%;
+    opacity:0;
+}
+.kingdescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+.roominfo{
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Courgette', cursive;
+    color:#0892d0;
+}
+.roomameni{
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+    justify-content: center;
+}
+.linkbtn{
+    color:white;
+    text-transform:uppercase;
+    text-decoration: none;
+}
+.homebtn{
+    background-color: #0892d0;
+    font-size:20px;
+    font-family: 'Lato', sans-serif;
+    padding:20px;
+    border:1px solid white;
+    border-radius:20px;
+    width:30%;
+}
+.homebtn:hover{
+    background-color: #001E6C;
+    
+}
+.ourhotel{
+    background-image: url(Water.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+}
+.hotelamenities{
+    color:#0892d0;
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+}
+
+.reserve{
+    background-image: url(poolglassesbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pool{
+    border:white 1px solid;
+    opacity:0;
+}
+.book{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:40px;
+}
+.booking{
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+.reservations{
+    font-size: 40px;
+    font-family: 'Courgette', cursive;
+    color:#0892d0;
+}
+.contactbtn{
+    display: flex;
+}
+
+.resrvebtn{
+    background-color:#0892d0;
+    margin:5px;
+    padding:10px;
+    border:1px solid white;
+    border-radius:20px;
+}
+.callus{
+    font-size: 40px;
+    text-decoration: none;
+    color:white;
+    font-family: 'Courgette', cursive;
+}
+.resrvebtn:hover{
+    background-color: #001E6C;
+}
+.hello{
+    display: flex;
+    justify-content: center;
+}
+.h3welcome{
+    color:#06709f;
+    font-size: 40px;
+    font-family: 'Courgette', cursive;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    margin:30px;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 40px;
+}
+.text{
+    color:#0892d0;
+    font-size: 25px;
+    font-family: 'Courgette', cursive;
+}
+.photogallery{
+    display: flex;
+    justify-content: center;
+}
+.h3gallery{
+    font-size: 50px;
+    font-family: 'Courgette', cursive;
+    color:#06709f;
+}
+.h3reviews{
+    font-size: 50px;
+    font-family: 'Courgette', cursive;
+    color:white;
+    text-shadow: 2px 2px 2px #06709f;
+}
+.btnhome{
+    display: flex;
+    justify-content: center;
+}
+.hotelgallery{
+    height: 550px;
+    width:475px;
+    opacity:0;
+}
+.sizegal{
+    height:550px;
+    width:475px;
+}
+.rev{
+    border:2px solid white;
+    background-color:#0892d0;
+    opacity:0;
+    }
+.revtext{
+    color:white;
+}
+@media all and (max-width:1100px){
+.btnslide1, .btnslide2{
+    font-size: 25px;
+}
+.h1welcome{
+    font-size: 50px;
+}
+
+}
+
+@media all and (max-width:800px){
+
+    .btnslide1, .btnslide2{
+        font-size: 20px;
+    }
+    .menu{
+        font-size:17px;
+        padding:5px;
+    }
+    .menu:hover{
+        font-size:17px;
+    }
+    .welcome{
+        top:80px;
+        left:100px;
+    }
+    .h1welcome{
+        font-size:30px;
+    } 
+    .contact{
+        padding:10px;
+    }
+    .info{
+        font-size: 30px;
+    }
+    .address{
+        font-size: 17px;
+    }
+    .telephone{
+        font-size: 17px;
+    }
+    .email{
+        font-size: 17px;
+    }
+    .hello{
+        display: flex;
+        justify-content: center;
+    }
+    .h3welcome{
+        font-size: 20px;
+        text-align: center;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .hotelimg{
+        width:76%;
+        align-self: center;
+    }
+    .text{
+        font-size: 16px;
+    }
+    .hotelamenities{
+        font-size: 16px;
+    }
+    .h3gallery{
+        font-size: 30px;
+    }    
+    .homebtn{
+        width:50%;
+        align-self: center;
+        font-size:15px;
+        padding:7px;
+    }
+
+    .reservations{
+        font-size: 25px;
+    }
+    .resrvebtn{
+        margin:5px;
+    }
+    .headingrooms{
+        display: flex;
+        justify-content: center;
+    }
+    .h1other{
+        font-size: 30px;
+        margin-top:60px;
+    }
+    .king{
+        display: flex;
+        flex-direction: column;
+        margin:5px;
+    }
+    .kingsuit{
+        width:50%;
+        align-self: center;
+    }
+    .queensuit{
+        align-self:center;
+        width:30%;
+    }
+    .roominfoimg{
+        align-self:center;
+        width:30%;
+        margin-top:10px;
+    }
+    .kingdescription{
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    .h3king{
+        font-size: 25px;
+        margin-top:10;
+    }
+    .roominfo{
+        align-self: center;
+        font-size: 15px;
+        line-height: 15px;
+        color:black;
+    }
+    .roomameni{
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+@media all and (max-width:500px){
+    .btnslide1, .btnslide2{
+        font-size: 8px;
+    }
+    .welcome{
+        top:30px;
+        left:70px;
+    }
+    .h1welcome{
+        font-size:20px;
+    } 
+    .h1other{
+        font-size:25px;
+    } 
+    .hotelimg{
+        width:85%;
+        align-self: center;
+    }
+    .h3welcome{
+        font-size: 18px;
+        padding-left:25px;
+        padding-right:25px;
+    }
+
+    .text{
+        font-size: 15px;
+    }
+    .hotelamenities{
+        font-size: 15px;
+    }
+    .h3gallery,.h3reviews{
+        font-size: 25px;
+    }
+    .revtext{
+        font-size:15px;
+    }
+    .navbar{
+        background-color: #0892d0;
+        position:fixed;
+        width:100%;
+        top:0;
+        z-index: 1;
+    }
+    .gal{
+        width:80%;
+        height:60%;
+    }
+    .rev{
+        width:80%;
+        height:60%;
+    }
+    .homebtn{
+        width:70%;
+    }
+    .homebtn:hover{
+        width:70%;
+    }
+    .reservations{
+        font-size: 18px;
+    }
+    .resrvebtn{
+        margin:5px;
+        padding:5px;
+    }
+    .callus{
+        font-size: 15px;
+    }
+    .pool{
+        width:70%;
+    }
+    .info{
+        font-size: 20px;
+    }
+    .address{
+        font-size: 15px;
+    }
+    .telephone{
+        font-size: 15px;
+    }
+    .email{
+        font-size: 15px;
+    }
+    .navbar{
+        position:initial;
+    }
+    .menu2{
+        font-size: 15px;
+    }
+    .h3king{
+        margin-top:40px;
+    }
+    .kingsuit, .queensuit, .roominfoimg{
+        width:85%;
+    }
+    .kingdescription{
+        padding:20px;
+    }
+    .roominfo{
+        align-self:flex-start;
+    }
+    .book{
+        padding:20px;
+    }
+
+}
